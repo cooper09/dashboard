@@ -1,6 +1,6 @@
 queue()
 	//.defer(d3.json, "/api/data")
-	.defer(d3.json, "https://blooming-castle-48985.herokuapp.com/sales")
+	.defer(d3.json, "https://sleepy-everglades-99189.herokuapp.com/invitehealth")
     .await(makeGraphs);
 
 function makeGraphs(error, apiData) {
